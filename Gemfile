@@ -45,7 +45,7 @@ group(:test) do
   gem 'yard', require: false
 
   gem 'rubocop', '~> 0.49', require: false, platforms: [:ruby]
-  gem 'rubocop-i18n', '~> 1.2.0', require: false, platforms: [:ruby]
+  gem 'rubocop-i18n', '~> 2.0.1', require: false, platforms: [:ruby]
 end
 
 group(:development, optional: true) do
